@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Form1</title>
+  </head>
+  <body>
+    <h3>בס"ד</h3>
+    <a href="index.html">Index Page</a>
+    <h1>Personal Form1</h1>
+
+    <form action="https://formspree.io/f/mjvznebr" method="post">
+      <label for="first-name">First Name:</label>
+      <input type="text" name="first-name" id="first-name" required />
+      <br />
+      <br />
+
+      <label for="last-name">Last Name:</label>
+      <input type="text" name="last-name" id="last-name" required />
+      <br />
+      <br />
+
+      <label for="age">Age:</label>
+      <input type="number" name="age" id="age" />
+      <br />
+      <br />
+
+      <label for="gender">Gender:</label>
+      <input type="radio" name="gender" id="male" value="male" checked />
+      <label for="male">Male</label>
+
+      <input type="radio" name="gender" id="female" value="female" />
+      <label for="female">Female</label>
+      <br />
+      <br />
+
+      <label for="city">City:</label>
+      <input type="text" name="city" id="city" required />
+      <br />
+      <br />
+
+      <label for="employment">Employment:</label>
+      <input type="text" name="employment" id="employment" />
+      <br />
+      <br />
+
+      <button type="submit" value="send">send</button>
+    </form>
+  </body>
+</html>
